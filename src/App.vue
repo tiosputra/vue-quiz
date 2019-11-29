@@ -26,14 +26,14 @@ export default {
     Header,
     QuestionBox
   },
-  data() {
+  data: function() {
     return {
       questions: [],
       index: 0
     };
   },
   methods: {
-    next() {
+    next: function() {
       this.index++;
     }
   },
